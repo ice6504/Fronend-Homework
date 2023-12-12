@@ -102,14 +102,22 @@ body {
   display: inline-block;
 }
 
+.img {
+  width: 100%;
+}
+
 @media screen and (max-width: 480px) {
   .grid {
+    grid-template-rows: 1fr;
     grid-template-areas:
-      "header header header" "leftpage leftpage leftpage"
-      "main main main" "rightpage rightpage rightpage" "footer footer footer";
+      "header header header"
+      "leftpage leftpage leftpage"
+      "main main main"
+      "rightpage rightpage rightpage"
+      "footer footer footer";
   }
 
-  .content.main {
-    height: 100%;
+  .img {
+    width: 200px;
   }
 }
