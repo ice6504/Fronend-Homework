@@ -164,20 +164,29 @@ img {
   height: 50px;
 }
 
-/* me */
+/* media screen */
 
 @media screen and (max-width: 480px) {
     #top-head{
         font-size: medium;
     }
 
+    #project {
+        flex-direction: column;
+    }
+
+    #project .items{
+        width: 100%;
+    }
+
     #project img{
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
     }
 
     #project .items{
         height: auto;
     }
+
 
 }
