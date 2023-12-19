@@ -68,9 +68,10 @@ body {
   );
   font-size: 12px;
 }
+
 .flexbox {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: stretch;
@@ -81,7 +82,7 @@ body {
 .item {
   box-sizing: border-box;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 0;
   padding: 0px 10px;
 }
 
