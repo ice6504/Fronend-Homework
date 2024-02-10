@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API test</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.1/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="max-w-[1440px] mx-auto px-4">
+      <div class="overflow-x-auto text-white">
+        <table class="table table-zebra">
+          <thead class="bg-primary text-white text-lg text-center">
+            <tr>
+              <th>Id</th>
+              <th class="w-48">Product</th>
+              <th class="w-36">Price</th>
+              <th>Product Detail</th>
+            </tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="axios.js"></script>
+  </body>
+</html>
