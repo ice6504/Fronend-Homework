@@ -4,7 +4,7 @@ const url =
 
 axios.get(url).then((response) => {
   console.log(response.data[0].image_link);
-  response.data.map((element) => {
+  response.data.forEach((element) => {
     const { id, name, price, description, image_link } = element;
     let newRow = `
         <tr>

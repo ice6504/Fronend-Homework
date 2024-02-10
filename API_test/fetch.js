@@ -5,7 +5,7 @@ async function loadData() {
     const data = await response.json();
     let info = document.getElementById("tbody");
   
-    data.map((element) => {
+    data.forEach((element) => {
       const { name, description, image_link } = element;
       let newRow = `
           <tr>
